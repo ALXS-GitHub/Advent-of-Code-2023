@@ -1,6 +1,7 @@
 #include <iostream>
-#include <time.h>
-
+#include <iomanip>
+#include <chrono>
+using namespace std::chrono;
 using namespace std;
 
 int main(int argc, char *argv[])
@@ -11,10 +12,11 @@ int main(int argc, char *argv[])
         return 1;
     }
     char* program = argv[1];
-    clock_t start, end;
-    start = clock();
+    auto start = high_resolution_clock::now();
     system(program);
-    end = clock();
-    cout << "Time elapsed: " << (double)(end - start) / CLOCKS_PER_SEC << "s" << endl;
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<microseconds>(stop - start);
+    auto seconds = duration.count() / 1000000.0;
+    cout << "Time elapsed: " << fixed << setprecision(6) << seconds << "s" << endl;
     return 0;
 }
