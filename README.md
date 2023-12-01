@@ -34,6 +34,6 @@ Note that the timer also takes the time to read the input file.
 
 ## Solutions
 
-| 🗓️Day🗓️ |                    ⛄Problem⛄                     |          🎁Part 1 Solution🎁           |          🎁Part 2 Solution🎁           | ❄️Part 1 Time❄️ | ❄️Part 2 Time❄️ |
-| :-----: | :------------------------------------------------: | :------------------------------------: | :------------------------------------: | :-------------: | :-------------: |
-|  🗓️1🗓️  | ⛄[Problem](https://adventofcode.com/2023/day/1)⛄ | 🎁[part1 solution](./src/day1/part1.cpp)🎁 | 🎁[part2 solution](./src/day1/part2.cpp)🎁 | ❄️0.007s❄️ | ❄️0.011s❄️ |
+|                     🗓️Day🗓️                      |            ⛄Part 1 Solution⛄             |            🎁Part 2 Solution🎁             | ❄️Part 1 Time❄️ | 🎄Part 2 Time🎄 |
+| :----------------------------------------------: | :----------------------------------------: | :----------------------------------------: | :-------------: | :-------------: |
+| 🗓️[Day 1](https://adventofcode.com/2023/day/1)🗓️ | ⛄[part1 solution](./src/day1/part1.cpp)⛄ | 🎁[part2 solution](./src/day1/part2.cpp)🎁 |   ❄️0.007s❄️    |   🎄0.011s🎄    |
