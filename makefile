@@ -2,14 +2,28 @@ CC = g++
 
 CFLAGS = -Wall -g -Wextra -pedantic -std=c++17
 
-DAYS = day1
+DAYS = day1 day2
 
-all: timer day1
+all: timer $(DAYS)
 
-timer:
+timer: bin
 	$(CC) $(CFLAGS) src/timer.cpp -o bin/timer.exe
 
-$(DAYS): %: %/part1 %/part2
+$(DAYS): %: %-bin %/part1 %/part2
+
+bin: 
+ifeq ($(OS),Windows_NT)
+	if not exist bin mkdir bin
+else 
+	mkdir -p bin
+endif
+
+%-bin: bin
+ifeq ($(OS),Windows_NT)
+	if not exist bin\$* mkdir bin\$*
+else 
+	mkdir -p bin/$*
+endif
 
 %/part1:
 	$(CC) $(CFLAGS) src/$*/part1.cpp -o bin/$*/part1.exe
