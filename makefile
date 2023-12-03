@@ -25,10 +25,10 @@ else
 	mkdir -p bin/$*
 endif
 
-%/part1:
+%/part1: %-bin
 	$(CC) $(CFLAGS) src/$*/part1.cpp -o bin/$*/part1.exe
 
-%/part2:
+%/part2: %-bin
 	$(CC) $(CFLAGS) src/$*/part2.cpp -o bin/$*/part2.exe
 
 clean: 
