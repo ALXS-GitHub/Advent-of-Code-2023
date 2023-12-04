@@ -12,17 +12,14 @@ using namespace std;
     #define COMMAND " > /dev/null 2>&1"
 #endif
 
-vector<double> test(char* program, double max_duration)
+vector<double> test(const char* program, double max_duration)
 {
     vector<double> times;
     double cumulated = 0.0;
-    string program_str = program;
-    program_str += COMMAND;
-    const char* program_cstr = program_str.c_str();
     while (true)
     {    
         auto start = high_resolution_clock::now();
-        system(program_cstr);
+        system(program);
         auto stop = high_resolution_clock::now();
         auto duration = duration_cast<microseconds>(stop - start);
         auto seconds = duration.count() / 1000000.0;
@@ -51,7 +48,20 @@ int main(int argc, char *argv[])
         return 1;
     }
     char* program = argv[1];
-    auto times = test(program, 1.0);
+
+    string program_str = program;
+    program_str += COMMAND;
+    const char *program_cstr = program_str.c_str();
+
+    int result = system(program_cstr);
+    if (result != 0)
+    {
+        // The command returned an error
+        cerr << "Error: the command '" << program << "' returned " << result << std::endl;
+        return result;
+    }
+
+    auto times = test(program_cstr, 1.0);
     cout << "Mean Time: " << mean(times) << "s, Iterations: " << times.size() << endl;
     return 0;
 }
