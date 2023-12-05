@@ -42,3 +42,4 @@ The times displayed here are the times given by the [timer](./src/timer.cpp) pro
 | 🗓️[Day 2](https://adventofcode.com/2023/day/2)🗓️ | ⛄[part1 solution](./src/day2/part1.cpp)⛄ | 🎁[part2 solution](./src/day2/part2.cpp)🎁 |   ❄️0.008s❄️    |   🎄0.008s🎄    |
 | 🗓️[Day 3](https://adventofcode.com/2023/day/3)🗓️ | ⛄[part1 solution](./src/day3/part1.cpp)⛄ | 🎁[part2 solution](./src/day3/part2.cpp)🎁 |   ❄️0.015s❄️    |   🎄0.015s🎄    |
 | 🗓️[Day 4](https://adventofcode.com/2023/day/4)🗓️ | ⛄[part1 solution](./src/day4/part1.cpp)⛄ | 🎁[part2 solution](./src/day4/part2.cpp)🎁 |   ❄️0.009s❄️    |   🎄0.009s🎄    |
+| 🗓️[Day 5](https://adventofcode.com/2023/day/5)🗓️ | ⛄[part1 solution](./src/day5/part1.cpp)⛄ | 🎁[part2 solution](./src/day5/part2.cpp)🎁 |   ❄️0.009s❄️    |   🎄0.009s🎄    |

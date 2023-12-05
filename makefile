@@ -2,7 +2,7 @@ CC = g++
 
 CFLAGS = -Wall -g -Wextra -pedantic -std=c++17
 
-DAYS = day1 day2 day3 day4
+DAYS = day1 day2 day3 day4 day5
 
 all: timer $(DAYS)
 
