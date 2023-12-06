@@ -14,7 +14,7 @@ vector<string> read_input(string filename)
         string line;
         while (getline(file, line))
         {
-            if (line.back() == '\r')
+            if (line.back() == '\r' && line.size() > 0)
             {
                 line.pop_back();
             }
