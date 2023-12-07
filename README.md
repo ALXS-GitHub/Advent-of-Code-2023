@@ -34,13 +34,14 @@ Note that the timer also takes the time to read the input file.
 
 ## Solutions
 
-The times displayed here are the times given by the [timer](./src/timer.cpp) program. They are a mean of multiple runs.
+The times displayed here are the times given by the high resolution clock of C++, inside the `main` function. (another program was used before, but it was not accurate enough, see `src/timer.cpp`)
 
 |                     🗓️Day🗓️                      |            ⛄Part 1 Solution⛄             |            🎁Part 2 Solution🎁             | ❄️Part 1 Time❄️ | 🎄Part 2 Time🎄 |
 | :----------------------------------------------: | :----------------------------------------: | :----------------------------------------: | :-------------: | :-------------: |
-| 🗓️[Day 1](https://adventofcode.com/2023/day/1)🗓️ | ⛄[part1 solution](./src/day1/part1.cpp)⛄ | 🎁[part2 solution](./src/day1/part2.cpp)🎁 |   ❄️0.007s❄️    |   🎄0.011s🎄    |
-| 🗓️[Day 2](https://adventofcode.com/2023/day/2)🗓️ | ⛄[part1 solution](./src/day2/part1.cpp)⛄ | 🎁[part2 solution](./src/day2/part2.cpp)🎁 |   ❄️0.008s❄️    |   🎄0.008s🎄    |
-| 🗓️[Day 3](https://adventofcode.com/2023/day/3)🗓️ | ⛄[part1 solution](./src/day3/part1.cpp)⛄ | 🎁[part2 solution](./src/day3/part2.cpp)🎁 |   ❄️0.015s❄️    |   🎄0.015s🎄    |
-| 🗓️[Day 4](https://adventofcode.com/2023/day/4)🗓️ | ⛄[part1 solution](./src/day4/part1.cpp)⛄ | 🎁[part2 solution](./src/day4/part2.cpp)🎁 |   ❄️0.009s❄️    |   🎄0.009s🎄    |
-| 🗓️[Day 5](https://adventofcode.com/2023/day/5)🗓️ | ⛄[part1 solution](./src/day5/part1.cpp)⛄ | 🎁[part2 solution](./src/day5/part2.cpp)🎁 |   ❄️0.009s❄️    |   🎄0.009s🎄    |
-| 🗓️[Day 6](https://adventofcode.com/2023/day/6)🗓️ | ⛄[part1 solution](./src/day6/part1.cpp)⛄ | 🎁[part2 solution](./src/day6/part2.cpp)🎁 |   ❄️0.007s❄️    |   🎄0.030s🎄    |
+| 🗓️[Day 1](https://adventofcode.com/2023/day/1)🗓️ | ⛄[part1 solution](./src/day1/part1.cpp)⛄ | 🎁[part2 solution](./src/day1/part2.cpp)🎁 |   ❄️0.0013s❄️    |   🎄0.0042s🎄    |
+| 🗓️[Day 2](https://adventofcode.com/2023/day/2)🗓️ | ⛄[part1 solution](./src/day2/part1.cpp)⛄ | 🎁[part2 solution](./src/day2/part2.cpp)🎁 |   ❄️0.0014s❄️    |   🎄0.0014s🎄    |
+| 🗓️[Day 3](https://adventofcode.com/2023/day/3)🗓️ | ⛄[part1 solution](./src/day3/part1.cpp)⛄ | 🎁[part2 solution](./src/day3/part2.cpp)🎁 |   ❄️0.0162s❄️    |   🎄0.0167s🎄    |
+| 🗓️[Day 4](https://adventofcode.com/2023/day/4)🗓️ | ⛄[part1 solution](./src/day4/part1.cpp)⛄ | 🎁[part2 solution](./src/day4/part2.cpp)🎁 |   ❄️0.0030s❄️    |   🎄0.0035s🎄    |
+| 🗓️[Day 5](https://adventofcode.com/2023/day/5)🗓️ | ⛄[part1 solution](./src/day5/part1.cpp)⛄ | 🎁[part2 solution](./src/day5/part2.cpp)🎁 |   ❄️0.0011s❄️    |   🎄0.0060s🎄    |
+| 🗓️[Day 6](https://adventofcode.com/2023/day/6)🗓️ | ⛄[part1 solution](./src/day6/part1.cpp)⛄ | 🎁[part2 solution](./src/day6/part2.cpp)🎁 |   ❄️0.0009s❄️    |   🎄0.0222s🎄    |
+| 🗓️[Day 7](https://adventofcode.com/2023/day/7)🗓️ | ⛄[part1 solution](./src/day7/part1.cpp)⛄ | 🎁[part2 solution](./src/day7/part2.cpp)🎁 |   ❄️0.0167s❄️    |   🎄0.0239s🎄    |

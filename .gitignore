@@ -32,8 +32,8 @@
 *.app
 
 /bin
+/debug
 
-/src/day6
 /src/day7
 /src/day8
 /src/day9

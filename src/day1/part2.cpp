@@ -4,8 +4,10 @@
 #include <string>
 #include <map>
 #include <time.h>
+#include <chrono>
 
 using namespace std;
+using namespace std::chrono;
 
 map<string, string> number_map;
 
@@ -90,6 +92,11 @@ int get_number_sum_line(string line)
 
 int main()
 {
+
+    // ! timer
+    auto start = high_resolution_clock::now();
+    // ! timer
+
     vector<string> input = read_input("./inputs/day1/input.txt");
     number_map["0"] = "zero";
     number_map["1"] = "one";
@@ -112,6 +119,13 @@ int main()
     }
 
     cout << "Sum: " << sum << endl;
+
+    // ! timer
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<microseconds>(stop - start);
+    auto seconds = duration.count() / 1000000.0;
+    cout << "Time " << seconds << " seconds" << endl;
+    // ! timer
 
     return 0;
 }

@@ -2,8 +2,10 @@
 #include <fstream>
 #include <vector>
 #include <string>
+#include <chrono>
 
 using namespace std;
+using namespace std::chrono;
 
 typedef struct card_t
 {
@@ -99,6 +101,11 @@ void card_copy(card_t& card, vector<card_t>& cards, int max_size) {
 
 int main()
 {
+
+    // ! timer
+    auto start = high_resolution_clock::now();
+    // ! timer
+
     vector<string> input = read_input("./inputs/day4/input.txt");
     vector<card_t> cards;
     int max_size = input.size();
@@ -120,6 +127,13 @@ int main()
     }
 
     cout << "Sum: " << sum << endl;
+
+    // ! timer
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<microseconds>(stop - start);
+    auto seconds = duration.count() / 1000000.0;
+    cout << "Time " << seconds << " seconds" << endl;
+    // ! timer
 
     return 0;
 }

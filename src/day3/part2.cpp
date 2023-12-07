@@ -2,8 +2,10 @@
 #include <fstream>
 #include <vector>
 #include <string>
+#include <chrono>
 
 using namespace std;
+using namespace std::chrono;
 vector<char> excluded = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.'};
 
 
@@ -197,6 +199,11 @@ int has_adjacent(vector<string> input, string number, int i, int j, int max_line
 
 int main()
 {
+
+    // ! timer
+    auto start = high_resolution_clock::now();
+    // ! timer
+
     vector<string> input = read_input("./inputs/day3/input.txt");
     vector<number_t> numbers;
     int max_line_length = input[0].size();
@@ -248,6 +255,13 @@ int main()
     }
 
     cout << "Sum: " << sum << endl;
+
+    // ! timer
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<microseconds>(stop - start);
+    auto seconds = duration.count() / 1000000.0;
+    cout << "Time " << seconds << " seconds" << endl;
+    // ! timer
 
     return 0;
 }

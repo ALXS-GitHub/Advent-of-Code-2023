@@ -2,8 +2,10 @@
 #include <fstream>
 #include <vector>
 #include <string>
+#include <chrono>
 
 using namespace std;
+using namespace std::chrono;
 
 typedef struct seed_t
 {
@@ -143,6 +145,11 @@ vector<seed_t>& get_seed_location(vector<seed_t>& seeds, vector<map_t>& maps) {
 
 int main()
 {
+
+    // ! timer
+    auto start = high_resolution_clock::now();
+    // ! timer
+
     vector<string> input = read_input("./inputs/day5/input.txt");
     vector<seed_t> seeds = get_seeds(input);
     vector<map_t> maps = get_maps(input);
@@ -158,6 +165,13 @@ int main()
     }
 
     cout << "The minimum seed is " << min << endl;
+
+    // ! timer
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<microseconds>(stop - start);
+    auto seconds = duration.count() / 1000000.0;
+    cout << "Time " << seconds << " seconds" << endl;
+    // ! timer
 
     return 0;
 }

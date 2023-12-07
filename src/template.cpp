@@ -2,8 +2,10 @@
 #include <fstream>
 #include <vector>
 #include <string>
+#include <chrono>
 
 using namespace std;
+using namespace std::chrono;
 
 vector<string> read_input(string filename)
 {
@@ -28,7 +30,25 @@ vector<string> read_input(string filename)
 
 int main()
 {
+    // ! timer
+    // auto start = high_resolution_clock::now();
+    // ! timer
+
+
+
+
+
     vector<string> input = read_input("./inputs/day1/input.txt");
+
+
+
+
+    // ! timer
+    // auto stop = high_resolution_clock::now();
+    // auto duration = duration_cast<microseconds>(stop - start);
+    // auto seconds = duration.count() / 1000000.0;
+    // cout << "Time " << seconds << " seconds" << endl;
+    // ! timer
 
     return 0;
 }

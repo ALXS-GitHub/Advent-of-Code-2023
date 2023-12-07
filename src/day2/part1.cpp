@@ -2,6 +2,7 @@
 #include <fstream>
 #include <vector>
 #include <string>
+#include <chrono>
 
 #define BLUE_MAX 14
 #define GREEN_MAX 13
@@ -9,6 +10,7 @@
 
 
 using namespace std;
+using namespace std::chrono;
 
 typedef struct game_t {
     int id; 
@@ -81,6 +83,11 @@ bool is_valid_game (game_t game) {
 
 int main()
 {
+
+    // ! timer
+    auto start = high_resolution_clock::now();
+    // ! timer
+
     vector<string> input = read_input("./inputs/day2/input.txt");
 
     vector<game_t> games;
@@ -98,6 +105,13 @@ int main()
     }
 
     cout << "Sum of valid games: " << sum << endl;
+
+    // ! timer
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<microseconds>(stop - start);
+    auto seconds = duration.count() / 1000000.0;
+    cout << "Time " << seconds << " seconds" << endl;
+    // ! timer
 
     return 0;
 }
