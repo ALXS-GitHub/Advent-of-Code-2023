@@ -11,6 +11,9 @@ timer: bin
 
 $(DAYS): %: %-bin %/part1 %/part2
 
+newday: 
+	$(CC) $(CFLAGS) newday.cpp -o newday.exe
+
 bin: 
 ifeq ($(OS),Windows_NT)
 	if not exist bin mkdir bin
