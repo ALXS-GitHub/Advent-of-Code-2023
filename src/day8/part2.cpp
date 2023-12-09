@@ -4,6 +4,7 @@
 #include <string>
 #include <chrono>
 #include <unordered_map>
+#include <numeric>
 
 using namespace std;
 using namespace std::chrono;
@@ -162,10 +163,10 @@ int main()
     get_maps(input);
     vector<position_t> all_A_end = get_all_A_end();
 
-    for (auto it = all_A_end.begin(); it != all_A_end.end(); it++)
-    {
-        cout << it->actual << " " << it->left << " " << it->right << endl;
-    }
+    // for (auto it = all_A_end.begin(); it != all_A_end.end(); it++)
+    // {
+    //     cout << it->actual << " " << it->left << " " << it->right << endl;
+    // }
 
     vector<unsigned long long int> counters;
 
@@ -180,17 +181,9 @@ int main()
 
     // get the ppcm of all counters
     unsigned long long int ppcm = counters[0];
-    for (int i = 1; i < counters.size(); i++) {
-        unsigned long long int a = ppcm;
-        unsigned long long int b = counters[i];
-        while (a != b) {
-            if (a < b) {
-                a += ppcm;
-            } else {
-                b += counters[i];
-            }
-        }
-        ppcm = a;
+    for (int i = 1; i < counters.size(); i++)
+    {
+        ppcm = lcm(ppcm, counters[i]);
     }
 
     cout << "PPCM: " << ppcm << endl;
