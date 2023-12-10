@@ -31,7 +31,7 @@ vector<string> read_input(string filename)
 int main()
 {
     // ! timer
-    // auto start = high_resolution_clock::now();
+    // auto start_timer = high_resolution_clock::now();
     // ! timer
 
 
@@ -44,8 +44,8 @@ int main()
 
 
     // ! timer
-    // auto stop = high_resolution_clock::now();
-    // auto duration = duration_cast<microseconds>(stop - start);
+    // auto stop_timer = high_resolution_clock::now();
+    // auto duration = duration_cast<microseconds>(stop_timer - start_timer);
     // auto seconds = duration.count() / 1000000.0;
     // cout << "Time " << seconds << " seconds" << endl;
     // ! timer
