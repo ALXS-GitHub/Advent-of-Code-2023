@@ -34,7 +34,8 @@
 /bin
 /debug
 
-/src/day10
+*.old.cpp
+
 /src/day11
 /src/day12
 /src/day13
