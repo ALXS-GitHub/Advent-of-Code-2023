@@ -35,8 +35,8 @@
 /debug
 
 *.old.cpp
+*backup*
 
-/src/day11
 /src/day12
 /src/day13
 /src/day14
