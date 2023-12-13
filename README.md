@@ -49,8 +49,5 @@ The times displayed here are the times given by the high resolution clock of C++
 | 🗓️[Day 9](https://adventofcode.com/2023/day/9)🗓️ | ⛄[part1 solution](./src/day9/part1.cpp)⛄ | 🎁[part2 solution](./src/day9/part2.cpp)🎁 |   ❄️0.0054s❄️    |   🎄0.0053s🎄    |
 | 🗓️[Day 10](https://adventofcode.com/2023/day/10)🗓️ | ⛄[part1 solution](./src/day10/part1.cpp)⛄ | 🎁[part2 solution](./src/day10/part2.cpp)🎁 |   ❄️0.1691s❄️    |   🎄0.6857s🎄    |
 | 🗓️[Day 11](https://adventofcode.com/2023/day/11)🗓️ | ⛄[part1 solution](./src/day11/part1.cpp)⛄ | 🎁[part2 solution](./src/day11/part2.cpp)🎁 |   ❄️0.1554s❄️    |   🎄0.463632s🎄    |
-| 🗓️[Day 12](https://adventofcode.com/2023/day/12)🗓️ | ⛄[part1 solution](./src/day12/part1.cpp)⛄ | 🎁[part2 solution](./src/day12/part2.cpp)🎁 |   ❄️8.5011s❄️    |   🎄0.2901s🎄    |
-
-### Notes
-
-The part 1 of day 12 is really slow, it is because it is my first try, and I didn't optimize it at all. That's why the part 2 is so fast (it uses another algorithm).
+| 🗓️[Day 12](https://adventofcode.com/2023/day/12)🗓️ | ⛄[part1 solution](./src/day12/part1.cpp)⛄ | 🎁[part2 solution](./src/day12/part2.cpp)🎁 |   ❄️0.0441s❄️    |   🎄0.2901s🎄    |
+| 🗓️[Day 13](https://adventofcode.com/2023/day/13)🗓️ | ⛄[part1 solution](./src/day13/part1.cpp)⛄ | 🎁[part2 solution](./src/day13/part2.cpp)🎁 |   ❄️0.0017s❄️    |   🎄0.0369s🎄    |

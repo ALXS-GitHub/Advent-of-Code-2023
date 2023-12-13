@@ -37,7 +37,6 @@
 *.old.cpp
 *backup*
 
-/src/day12
 /src/day13
 /src/day14
 /src/day15
