@@ -48,7 +48,8 @@ The times displayed here are the times given by the high resolution clock of C++
 | 🗓️[Day 8](https://adventofcode.com/2023/day/8)🗓️ | ⛄[part1 solution](./src/day8/part1.cpp)⛄ | 🎁[part2 solution](./src/day8/part2.cpp)🎁 |   ❄️0.0024s❄️    |   🎄0.0079s🎄    |
 | 🗓️[Day 9](https://adventofcode.com/2023/day/9)🗓️ | ⛄[part1 solution](./src/day9/part1.cpp)⛄ | 🎁[part2 solution](./src/day9/part2.cpp)🎁 |   ❄️0.0054s❄️    |   🎄0.0053s🎄    |
 | 🗓️[Day 10](https://adventofcode.com/2023/day/10)🗓️ | ⛄[part1 solution](./src/day10/part1.cpp)⛄ | 🎁[part2 solution](./src/day10/part2.cpp)🎁 |   ❄️0.1691s❄️    |   🎄0.6857s🎄    |
-| 🗓️[Day 11](https://adventofcode.com/2023/day/11)🗓️ | ⛄[part1 solution](./src/day11/part1.cpp)⛄ | 🎁[part2 solution](./src/day11/part2.cpp)🎁 |   ❄️0.1554s❄️    |   🎄0.463632s🎄    |
+| 🗓️[Day 11](https://adventofcode.com/2023/day/11)🗓️ | ⛄[part1 solution](./src/day11/part1.cpp)⛄ | 🎁[part2 solution](./src/day11/part2.cpp)🎁 |   ❄️0.1554s❄️    |   🎄0.4636s🎄    |
 | 🗓️[Day 12](https://adventofcode.com/2023/day/12)🗓️ | ⛄[part1 solution](./src/day12/part1.cpp)⛄ | 🎁[part2 solution](./src/day12/part2.cpp)🎁 |   ❄️0.0441s❄️    |   🎄0.2901s🎄    |
 | 🗓️[Day 13](https://adventofcode.com/2023/day/13)🗓️ | ⛄[part1 solution](./src/day13/part1.cpp)⛄ | 🎁[part2 solution](./src/day13/part2.cpp)🎁 |   ❄️0.0017s❄️    |   🎄0.0369s🎄    |
 | 🗓️[Day 14](https://adventofcode.com/2023/day/14)🗓️ | ⛄[part1 solution](./src/day14/part1.cpp)⛄ | 🎁[part2 solution](./src/day14/part2.cpp)🎁 |   ❄️0.0010s❄️    |   🎄0.0891s🎄    |
+| 🗓️[Day 15](https://adventofcode.com/2023/day/15)🗓️ | ⛄[part1 solution](./src/day15/part1.cpp)⛄ | 🎁[part2 solution](./src/day15/part2.cpp)🎁 |   ❄️0.0013s❄️    |   🎄0.0023s🎄    |
