@@ -36,9 +36,8 @@
 
 *.old.cpp
 *backup*
+*perso*
 
-/src/day16
-/src/day17
 /src/day18
 /src/day19
 /src/day20

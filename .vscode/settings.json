@@ -80,6 +80,7 @@
         "filesystem": "cpp",
         "list": "cpp",
         "regex": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "queue": "cpp"
     }
 }
