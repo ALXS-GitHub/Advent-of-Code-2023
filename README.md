@@ -59,6 +59,7 @@ The times displayed here are the times given by the high resolution clock of C++
 | 🗓️[Day 19](https://adventofcode.com/2023/day/19)🗓️ | ⛄[part1 solution](./src/day19/part1.cpp)⛄ | 🎁[part2 solution](./src/day19/part2.cpp)🎁 |   ❄️0.0025s❄️    |   🎄0.0042s🎄    |
 | 🗓️[Day 20](https://adventofcode.com/2023/day/20)🗓️ | ⛄[part1 solution](./src/day20/part1.cpp)⛄ | 🎁[part2 solution](./src/day20/part2.cpp)🎁 |   ❄️0.0267s❄️    |   🎄0.1384s🎄    |
 | 🗓️[Day 21](https://adventofcode.com/2023/day/21)🗓️ | ⛄[part1 solution](./src/day21/part1.cpp)⛄ | 🎁[part2 solution](./src/day21/part2.cpp)🎁 |   ❄️0.2662s❄️    |   🎄29.4864s🎄    |
+| 🗓️[Day 22](https://adventofcode.com/2023/day/22)🗓️ | ⛄[part1 solution](./src/day22/part1.cpp)⛄ | 🎁[part2 solution](./src/day22/part2.cpp)🎁 |   ❄️0.0349s❄️    |   🎄0.0874s🎄    |
 
 ### Notes
 
