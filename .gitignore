@@ -37,8 +37,9 @@
 *.old.cpp
 *backup*
 *perso*
+*opti*
+/src/day23/part2.cpp
 
-/src/day22
 /src/day23
 /src/day24
 /src/day25

@@ -81,6 +81,8 @@
         "list": "cpp",
         "regex": "cpp",
         "set": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "ranges": "cpp",
+        "span": "cpp"
     }
 }
