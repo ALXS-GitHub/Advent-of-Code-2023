@@ -61,7 +61,15 @@ The times displayed here are the times given by the high resolution clock of C++
 | 🗓️[Day 21](https://adventofcode.com/2023/day/21)🗓️ | ⛄[part1 solution](./src/day21/part1.cpp)⛄ | 🎁[part2 solution](./src/day21/part2.cpp)🎁 |   ❄️0.2662s❄️    |   🎄29.4864s🎄    |
 | 🗓️[Day 22](https://adventofcode.com/2023/day/22)🗓️ | ⛄[part1 solution](./src/day22/part1.cpp)⛄ | 🎁[part2 solution](./src/day22/part2.cpp)🎁 |   ❄️0.0349s❄️    |   🎄0.0874s🎄    |
 | 🗓️[Day 23](https://adventofcode.com/2023/day/23)🗓️ | ⛄[part1 solution](./src/day23/part1.cpp)⛄ | 🎁[part2 solution](./src/day23/part2.cpp)🎁 |   ❄️0.1083s❄️    |   🎄76.441s🎄    |
+| 🗓️[Day 24](https://adventofcode.com/2023/day/24)🗓️ | ⛄[part1 solution](./src/day24/part1.cpp)⛄ | 🎁[part2 solution](./src/day24/part2.cpp)🎁 |   ❄️0.0031s❄️    |   🎄2.5748s🎄    |
+| 🗓️[Day 25](https://adventofcode.com/2023/day/25)🗓️ | ⛄[part1 solution](./src/day25/part1.cpp)⛄ | 🎁[part2 solution](./src/day25/part2.cpp)🎁 |   ❄️0.0476s❄️    |   🎄2:25🎄    |
 
 ### Notes
 
 For day 18, the part 1 is way longer than the part 2, because I used a different algorithm for the part 2. The part 1 is a filling algorithm, and the part 2 is an area calculation algorithm.
+
+For day 24, i don't have any solutions in cpp for part 2, instead I use some solvers in python.
+
+For day 25 part1, I don't have any solutions in cpp, instead I use the networkx library in python. (The current solution in cpp works for the test input, but takes an eternity for the real input)
+
+For day 25, the time given for part2 is the time i took to push the Big Red Button 🤣.
