@@ -2,6 +2,8 @@
 
 This year, I'm going to try to do the Advent of Code in C++.
 
+![Completed](STARS.png)
+
 ## How to run
 
 You can run the code by doing:
